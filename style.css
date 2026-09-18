@@ -88,6 +88,7 @@ span {
   justify-content: start;
   align-items: center;
   gap: 5px;
+  cursor: pointer;
 }
 
 .support button {
@@ -100,6 +101,7 @@ span {
   justify-content: start;
   align-items: center;
   gap: 5px;
+  cursor: pointer;
 }
 
 .type input[type="radio"] {
@@ -134,6 +136,7 @@ textarea {
 .consent input[type="checkbox"] {
   transform: scale(1.7);
   margin: 5px;
+  cursor: pointer;
 }
 
 .submit {
@@ -147,4 +150,5 @@ textarea {
   height: 48px;
   border: none;
   border-radius: 5px;
+  cursor: pointer;
 }
