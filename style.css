@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap");
+
+body {
+  background-color: hsl(148, 38%, 91%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  font-family: "Karla", sans-serif;
+}
+
+.white-box {
+  background-color: white;
+  width: 700px;
+  height: 650px;
+  border-radius: 10px;
+}
+
+.us {
+  padding-left: 23px;
+  padding-bottom: 30px;
+}
+
+.person {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.first {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.first input {
+  width: 300px;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  border: 0.6px solid rgb(180, 180, 180);
+}
+
+span {
+  color: hsl(169, 82%, 27%);
+}
+
+.email {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 21px;
+}
+
+.email input {
+  height: 40px;
+  border-radius: 4px;
+  border: none;
+  border: 0.6px solid rgb(183, 180, 180);
+}
+
+.query {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.type {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.support {
+  padding-top: 31.5px;
+}
+
+.type button {
+  width: 310px;
+  height: 40px;
+  border-radius: 4px;
+  border: 0.6px solid rgb(186, 184, 184);
+  background-color: white;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 5px;
+}
+
+.support button {
+  width: 310px;
+  height: 40px;
+  border-radius: 4px;
+  border: 0.6px solid rgb(186, 184, 184);
+  background-color: white;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 5px;
+}
+
+.type input[type="radio"] {
+  transform: scale(1.2);
+  margin: 5px;
+}
+
+.support input[type="radio"] {
+  transform: scale(1.2);
+  margin: 5px;
+}
+
+.message {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 20px;
+  height: 100px;
+}
+
+textarea {
+  height: 70px;
+}
+
+.consent {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding-left: 16px;
+}
+
+.consent input[type="checkbox"] {
+  transform: scale(1.7);
+  margin: 5px;
+}
+
+.submit {
+  padding: 20px;
+}
+
+.submit button {
+  background-color: hsl(169, 82%, 27%);
+  color: white;
+  width: 659px;
+  height: 48px;
+  border: none;
+  border-radius: 5px;
+}
